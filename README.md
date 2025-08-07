@@ -6,17 +6,17 @@ This repository contains foundational materials for MathCodeLab Level 1, includi
 ---
 
 
-## 📁 Folder Structure
 
-- [Material/](Material/)
-  - [Code/](Material/Code/)
-  - [Puzzles/](Material/Puzzles/)
-- [Homework/](Homework/)
-- [ParentResourcs/](ParentResourcs/)
-- [Presentations/](Presentations/)
-  - [PDF/](Presentations/PDF/)
-- [Resources/](Resources/)
+
+## 📁 Folder Structure (up to 2 levels)
+
 - [StudentResources/](StudentResources/)
+    - [Code/](StudentResources/Code/)
+    - [Puzzles/](StudentResources/Puzzles/)
+    - [Homework/](StudentResources/Homework/)
+    - [Presentations/](StudentResources/Presentations/)
+- [ParentResourcs/](ParentResourcs/)
+- [Resources/](RepoResources/)
 
 ---
 
