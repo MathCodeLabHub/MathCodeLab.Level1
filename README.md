@@ -8,7 +8,7 @@ This repository contains foundational materials for MathCodeLab Level 1, includi
 
 
 
-## 📁 Folder Structure (up to 2 levels)
+## 📁 Folder Structure
 
 - [StudentResources/](StudentResources/)
     - [Code/](StudentResources/Code/)
