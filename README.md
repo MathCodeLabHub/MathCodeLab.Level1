@@ -1,0 +1,38 @@
+
+# MCL.Level1.Material
+
+This repository contains foundational materials for MathCodeLab Level 1, including code samples, presentations, puzzles, and resources for students and parents.
+
+---
+
+
+## 📁 Folder Structure
+
+- [Material/](Material/)
+  - [Code/](Material/Code/)
+  - [Puzzles/](Material/Puzzles/)
+- [Homework/](Homework/)
+- [ParentResourcs/](ParentResourcs/)
+- [Presentations/](Presentations/)
+  - [PDF/](Presentations/PDF/)
+- [Resources/](Resources/)
+- [StudentResources/](StudentResources/)
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Explore the code samples and resources using the folder structure above.
+3. Open and run the Python files in your preferred IDE or editor.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements or new content.
