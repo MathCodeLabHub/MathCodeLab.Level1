@@ -41,37 +41,6 @@ for n in test_numbers:
     print(f"\n{n}! = {factorial}")
 ```
 
-### Try This Code! 💻
-
-Choose one of these easy ways to run the code:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MathCodeLabTeam/MathCodeLab.Level1/blob/main/StudentResources/Puzzles/factorial_calculator.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MathCodeLabTeam/MathCodeLab.Level1/main?labpath=StudentResources%2FPuzzles%2Ffactorial_calculator.ipynb)
-[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/MathCodeLabTeam/MathCodeLab.Level1/StudentResources/Puzzles/factorial_calculator.ipynb)
-
-1. **Quick Start (Browser)** 🌐
-   - Click any button above
-   - Press ▶️ next to each code cell
-   - No setup needed!
-
-2. **Local Setup** �
-   - Open [`factorial_calculator.ipynb`](factorial_calculator.ipynb) in VS Code
-   - Press `Shift+Enter` to run cells
-   - Or create `factorial_calculator.py` and run with Python
-
-```python
-def calculate_factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        result = result * i
-    return result
-
-# Test with different numbers
-for n in [3, 4, 5]:
-    result = calculate_factorial(n)
-    print(f"{n}! = {result}")
-```
-
 ### What About Bigger Numbers? 🔢
 
 Try this code in your Jupyter Notebook:
