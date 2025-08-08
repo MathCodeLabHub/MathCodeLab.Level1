@@ -1,7 +1,3 @@
-# Math Code Lab Level 1 - Part 1
-
-This document focuses on simple or primitive data types such as numbers, strings, booleans, and None. It introduces variables, data type casting, basic arithmetic and logical operations, conditional statements, and loops using numeric and string sequences. Each code example is provided as a code block for easy copy-paste and experimentation.
-
 ## Topics Covered
 1. Variables and values – creating and assigning variables.
 2. Simple data types – strings, integers, floats, complex numbers, booleans, and None.

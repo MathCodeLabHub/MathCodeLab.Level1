@@ -1,7 +1,3 @@
-# Math Code Lab Level 1 - Part 2
-
-This document focuses on complex data types such as lists, tuples, ranges, dictionaries, and sets. It shows how to work with these types, including creating them, iterating over them, using membership and identity operators, and combining nested loops. Each code example is provided as a code block for easy copy-paste and experimentation.
-
 ## Topics Covered
 1. Complex built-in data types – examples of lists, tuples, ranges, dictionaries, and sets.
 2. Converting between types – converting sequences of strings to numbers.
