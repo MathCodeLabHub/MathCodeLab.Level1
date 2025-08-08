@@ -16,8 +16,6 @@ This repository contains foundational materials for MathCodeLab Level 1, includi
     - [Homework/](StudentResources/Homework/)
     - [Presentations/](StudentResources/Presentations/)
 - [ParentResourcs/](ParentResourcs/)
-- [Resources/](RepoResources/)
-
 ---
 
 ## Getting Started
@@ -27,7 +25,7 @@ This repository contains foundational materials for MathCodeLab Level 1, includi
    git clone <repository-url>
    ```
 2. Explore the code samples and resources using the folder structure above.
-3. Open and run the Python files in your preferred IDE or editor.
+3. Copy and run the Python code in your preferred IDE or editor.
 
 ## License
 
