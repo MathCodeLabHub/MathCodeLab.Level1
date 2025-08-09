@@ -235,8 +235,13 @@ Did you know factorials show up in amazing places in science? Here are some fun 
 Have fun exploring the fascinating world of factorials! And remember, in programming, there's often a clever way to solve problems without doing all the hard work! 🚀
 
 ## Complete Program: Your Factorial Zero Counter! 🎮
-
 Here's a complete program you can use to find trailing zeros for any factorial. Just copy, run, and follow the instructions!
+This program:
+    1. Welcomes you and explains what it does
+    2. Lets you enter any number you want
+    3. Tells you how many trailing zeros that number's factorial has
+    4. Keeps going until you want to stop (just enter 0)
+    5. Handles errors in case you type something wrong
 
 ```python
 # Your Factorial Zero Counter!
@@ -288,13 +293,6 @@ while True:
     except ValueError:
         print("Please enter a valid number!\n")
 ```
-
-This program:
-1. Welcomes you and explains what it does
-2. Lets you enter any number you want
-3. Tells you how many trailing zeros that number's factorial has
-4. Keeps going until you want to stop (just enter 0)
-5. Handles errors in case you type something wrong
 
 Try it with different numbers and see what patterns you can find! 🕵️‍♂️
 
