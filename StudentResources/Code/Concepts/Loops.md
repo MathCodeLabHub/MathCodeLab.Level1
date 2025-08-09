@@ -1,3 +1,6 @@
+![MathCodeLab](../../../ParentResourcs/logo.mathcodelab.light.png#gh-light-mode-only)
+![MathCodeLab](../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only)
+
 # 🎉 Let's Learn About Loops in Python! 🎉
 
 Hello, superstar coder! 🌟 Today, we're going to learn about **loops**—one of the coolest tricks in programming. Loops help you tell the computer: "Do this again and again!"
@@ -145,3 +148,6 @@ while True:
 - Practice makes you a loop master!
 
 Keep looping, keep learning, and have fun! 🚀🎮
+
+---
+© 2025 MathCodeLab. All rights reserved.

@@ -1,3 +1,6 @@
+![MathCodeLab](../../../ParentResourcs/logo.mathcodelab.light.png#gh-light-mode-only)
+![MathCodeLab](../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only)
+
 # Understanding Operators in Python! 🎮
 
 Hey there, coding champion! Ready to learn about the special symbols that make Python do amazing things? Let's dive into operators - they're like the magic wands of programming! 🪄
@@ -199,5 +202,8 @@ damage = (base_damage + bonus_damage) * critical_multiplier
 1. Calculate a game score with bonuses
 2. Convert player stats between text and numbers
 3. Break down a complex power-up calculation
+
+---
+© 2025 MathCodeLab. All rights reserved.
 
 Remember: Practice makes perfect! Start with simple calculations and work your way up to more complex ones. And don't worry if you make mistakes - that's how we learn! �
