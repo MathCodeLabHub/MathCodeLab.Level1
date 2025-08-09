@@ -23,43 +23,40 @@ Here's how we expand them:
 Let's write a program to calculate factorials:
 
 ```python
-def calculate_factorial(n):
-    # Start with 1 (multiplying by 0 would give us 0!)
-    result = 1
-    
-    # Multiply by each number from 1 to n
-    for i in range(1, n + 1):
-        result = result * i
-        print(f"After multiplying by {i}: {result}")
-    
-    return result
+# Let's calculate some factorials!
+n = 6
+result = 1  # Start with 1
 
-# Let's try it with some numbers
-test_numbers = [3, 4, 5]
-for n in test_numbers:
-    factorial = calculate_factorial(n)
-    print(f"\n{n}! = {factorial}")
+# Note: `range(1, n)` means `i` starts at 1 and ends at `n-1`. 
+# To include `n` in the calculation for `n!`, use `range(1, n + 1)`.
+for i in range(1, n + 1):
+    result = result * i
+    print(f"After multiplying by {i}: {result}")
 ```
 
 ### What About Bigger Numbers? 🔢
 
-Try this code in your Jupyter Notebook:
-
 ```python
-def show_factorial_info(n):
-    result = calculate_factorial(n)
-    zeros = len(str(result)) - len(str(result).rstrip('0'))
-    print(f"{n}! = {result}")
-    print(f"Number of digits: {len(str(result))}")
-    print(f"Trailing zeros: {zeros}\n")
+# Let's look at some bigger numbers
+n = 10
 
-# Try some bigger numbers
-for n in [5, 7, 10]:
-    show_factorial_info(n)
+# Calculate factorial without using math library
+result = 1
+for i in range(1, n + 1):
+    result *= i
+
+# Count trailing zeros by converting to string
+number_as_text = str(result)
+zeros = len(number_as_text) - len(number_as_text.rstrip('0'))
+
+# Print the results
+print(f"{n}! = {result}")
+print(f"Number of digits: {len(number_as_text)}")
+print(f"Trailing zeros: {zeros}\n")
 ```
 
 🎯 **Quick Exercise**: 
-- Change the numbers in the list `[5, 7, 10]` to try different values
+- Change the n to 11, 15, 20, 24  to try different values
 - What happens with larger numbers like 15 or 20?
 - Can you predict how many zeros 25! will have?
 
@@ -93,28 +90,6 @@ Factorials grow VERY quickly:
 15! = 1,307,674,368,000     # 13 digits
 20! = 2,432,902,008,176,640,000  # 19 digits
 ```
-
-This rapid growth leads to several interesting challenges:
-
-### The Big Number Problem 🔢
-1. Our calculator might give up! Try calculating 100! on your calculator...
-2. Even computers struggle with really big factorials
-3. Some programming languages can't handle numbers this big
-4. We might run out of memory trying to store these huge numbers
-
-### The Time Problem ⏰
-1. Each factorial needs more calculations than the last
-2. 5! needs 4 multiplications
-3. 10! needs 9 multiplications
-4. 100! needs 99 multiplications
-5. 1000! ... that's a LOT of multiplications!
-
-### The Clever Solution 🧠
-But what if we don't need to calculate the whole factorial?
-- We just want to count zeros at the end
-- Do we really need to do all that multiplication?
-- Could there be a pattern we can use?
-- Can we be smarter about this?
 
 ## The Puzzle: Counting Trailing Zeros 🧩
 
@@ -174,28 +149,36 @@ Total zeros = 6
 
 ## Let's Write a Program! 💻
 
-Here's a fun program to count trailing zeros:
+Here's a simple program to count trailing zeros:
 
 ```python
-def count_trailing_zeros(n):
-    # Start counting zeros
-    zeros = 0
-    
-    # Keep dividing by powers of 5
-    power_of_5 = 5
-    while n >= power_of_5:
-        # Add the count of numbers divisible by current power of 5
-        zeros += n // power_of_5
-        # Move to next power of 5
-        power_of_5 *= 5
-    
-    return zeros
+# Pick a number to check
+n = 25
 
-# Let's test our function!
-test_numbers = [5, 10, 20, 25, 100]
-for n in test_numbers:
-    zeros = count_trailing_zeros(n)
-    print(f"{n}! has {zeros} trailing zeros")
+# Count how many 5s we can find
+print(f"Looking for trailing zeros in {n}!")
+print("Let's count the 5s in different ways:")
+
+# First, count numbers divisible by 5
+fives = n // 5
+print(f"Numbers divisible by 5: {fives}")
+
+# Then, count numbers divisible by 25
+twenty_fives = n // 25
+print(f"Numbers divisible by 25: {twenty_fives}")
+
+# Add them together to get total zeros
+total_zeros = fives + twenty_fives
+print(f"\n{n}! has {total_zeros} trailing zeros")
+
+# Let's verify with actual numbers divisible by 5:
+print("\nNumbers that give us zeros:")
+print("Divisible by 5:", end=" ")
+for i in range(5, n + 1, 5):
+    print(i, end=" ")
+print("\nDivisible by 25:", end=" ")
+for i in range(25, n + 1, 25):
+    print(i, end=" ")
 ```
 
 ## Try It Yourself! 🎯
@@ -250,3 +233,69 @@ Did you know factorials show up in amazing places in science? Here are some fun 
 - Sometimes we don't need to calculate everything to find our answer
 
 Have fun exploring the fascinating world of factorials! And remember, in programming, there's often a clever way to solve problems without doing all the hard work! 🚀
+
+## Complete Program: Your Factorial Zero Counter! 🎮
+
+Here's a complete program you can use to find trailing zeros for any factorial. Just copy, run, and follow the instructions!
+
+```python
+# Your Factorial Zero Counter!
+print("Welcome to the Factorial Zero Counter! 🔢")
+print("This program will tell you how many trailing zeros are in any factorial.")
+print("For example: 5! has 1 trailing zero, 10! has 2 trailing zeros\n")
+
+# Ask for a number
+while True:
+    try:
+        print("Enter a number (or type 0 to exit):")
+        n = int(input())
+        
+        # Check if user wants to exit
+        if n == 0:
+            print("Thanks for playing! Goodbye! 👋")
+            break
+        
+        # Make sure the number is positive
+        if n < 0:
+            print("Please enter a positive number!\n")
+            continue
+            
+        # Count trailing zeros
+        print(f"\nLet's count trailing zeros in {n}!")
+        
+        # Count by looking at multiples of 5
+        zeros = 0
+        power = 5
+        
+        # Keep going until this power of 5 is too big
+        while power <= n:
+            zeros += n // power
+            power = power * 5
+        
+        # Show the result with a fun message
+        print(f"🎉 {n}! has {zeros} trailing zeros!")
+        
+        # Give some extra info for fun
+        if zeros == 0:
+            print("No trailing zeros in this one!")
+        elif zeros == 1:
+            print("Just one zero at the end!")
+        else:
+            print(f"That's {zeros} zeros at the end! Wow!")
+        
+        print("\nTry another number!\n")
+            
+    except ValueError:
+        print("Please enter a valid number!\n")
+```
+
+This program:
+1. Welcomes you and explains what it does
+2. Lets you enter any number you want
+3. Tells you how many trailing zeros that number's factorial has
+4. Keeps going until you want to stop (just enter 0)
+5. Handles errors in case you type something wrong
+
+Try it with different numbers and see what patterns you can find! 🕵️‍♂️
+
+Have fun exploring the fascinating world of factorials! 🚀
