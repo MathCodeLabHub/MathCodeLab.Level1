@@ -1,5 +1,5 @@
-<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
-<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../../CommonResourcesLogo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../../CommonResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
 
 # Python Data Types in Math Code Lab
 
