@@ -1,5 +1,5 @@
-![MathCodeLab](../../../ParentResourcs/logo.mathcodelab.light.png#gh-light-mode-only)
-![MathCodeLab](../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only)
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
 
 # 🎉 Let's Learn About Loops in Python! 🎉
 
@@ -150,4 +150,4 @@ while True:
 Keep looping, keep learning, and have fun! 🚀🎮
 
 ---
-© 2025 MathCodeLab. All rights reserved.
+© 2025 MathCodeLab Team. All Rights Reserved.

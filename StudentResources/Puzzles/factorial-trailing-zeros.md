@@ -1,3 +1,6 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+
 # Counting Zeros in Factorial Numbers! 🔢
 
 Hey there, math explorer! Ready for a fun puzzle? We're going to discover something amazing about factorial numbers and their trailing zeros! 
@@ -297,3 +300,6 @@ while True:
 Try it with different numbers and see what patterns you can find! 🕵️‍♂️
 
 Have fun exploring the fascinating world of factorials! 🚀
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

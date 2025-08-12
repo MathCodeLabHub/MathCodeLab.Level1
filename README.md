@@ -1,3 +1,5 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
 
 # Welcome to MathCodeLab Level 1! 🚀
 
@@ -138,3 +140,6 @@ Want to help make MathCodeLab better? We welcome contributions! Please open issu
 ---
 
 Created with ❤️ by MathCodeLab Team | Making Programming Fun!
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

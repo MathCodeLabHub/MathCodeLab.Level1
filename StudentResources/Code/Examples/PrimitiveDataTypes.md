@@ -1,3 +1,6 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+
 ## Topics Covered
 1. Variables and values – creating and assigning variables.
 2. Simple data types – strings, integers, floats, complex numbers, booleans, and None.
@@ -274,3 +277,6 @@ for num in range(1, 25):
     if num % 4 == 0 or num % 6 == 0:
         print(num, "is divisible by 4 or 6")
 ```
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

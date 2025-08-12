@@ -1,5 +1,5 @@
-![MathCodeLab](../../../ParentResourcs/logo.mathcodelab.light.png#gh-light-mode-only)
-![MathCodeLab](../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only)
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
 
 # Understanding Operators in Python! 🎮
 
@@ -204,6 +204,9 @@ damage = (base_damage + bonus_damage) * critical_multiplier
 3. Break down a complex power-up calculation
 
 ---
-© 2025 MathCodeLab. All rights reserved.
+© 2025 MathCodeLab Team. All Rights Reserved.
 
 Remember: Practice makes perfect! Start with simple calculations and work your way up to more complex ones. And don't worry if you make mistakes - that's how we learn! �
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

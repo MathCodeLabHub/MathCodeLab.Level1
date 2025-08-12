@@ -1,3 +1,6 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+
 ## Topics Covered
 1. Complex built-in data types – examples of lists, tuples, ranges, dictionaries, and sets.
 2. Converting between types – converting sequences of strings to numbers.
@@ -100,3 +103,5 @@ print("a == c ->", a == c)   # values are equal
 print("b is a ->", b is a)   # b and a refer to the same object
 print("c is a ->", c is a)   # c is a separate object
 ```
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

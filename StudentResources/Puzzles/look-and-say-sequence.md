@@ -1,3 +1,6 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+
 # Look-and-Say Sequence
 
 ## Details
@@ -51,3 +54,5 @@ if __name__ == "__main__":
     for idx, term in enumerate(seq, 1):
         print(f"Term {idx}: {term}")
 ```
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

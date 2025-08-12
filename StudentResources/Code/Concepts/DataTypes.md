@@ -1,5 +1,5 @@
-![MathCodeLab](../../../ParentResourcs/logo.mathcodelab.light.png#gh-light-mode-only)
-![MathCodeLab](../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only)
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
 
 # Python Data Types in Math Code Lab
 
@@ -376,8 +376,8 @@ char_list = list(text)      # ['H', 'e', 'l', 'l', 'o']
 1. Choose the appropriate data type for your needs
 2. Consider memory usage and performance
 3. Use type hints for better code readability
-
----
-© 2025 MathCodeLab. All rights reserved.
 4. Convert between types only when necessary
 5. Be aware of type-specific operations and methods
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

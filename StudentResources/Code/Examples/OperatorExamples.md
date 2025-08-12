@@ -1,3 +1,6 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+
 # Fun with Python Operators! 🎮
 
 Let's see how operators work in real game-like situations!
@@ -117,3 +120,6 @@ while power_up_time > 0:
 
 Try these examples out! Change the numbers, add your own features, and see what happens! 
 Remember: The best way to learn is to play around with the code! 🎮✨
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.

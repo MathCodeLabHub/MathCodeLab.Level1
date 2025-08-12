@@ -1,3 +1,6 @@
+<img src="../../../RepoResources/Logo.MathCodeLab.Light.png#gh-light-mode-only" alt="MathCodeLab" width="200"/>
+<img src="../../../RepoResources/Logo.MathCodeLab.Dark.jpg#gh-dark-mode-only" alt="MathCodeLab" width="200"/>
+
 # Welcome to Your Python Adventure! 🐍
 
 Hey there, future programmer! I'm so excited you're here! You know how you play video games and wonder "How do they make this?"... Well, you're about to discover the magic behind it all! 
@@ -411,3 +414,6 @@ Just like having a safety net when you make a mistake!
 player_name = input("What's your player name? ")
 print(f"Welcome to the game, {player_name}! 🎮")
 ```
+
+---
+© 2025 MathCodeLab Team. All Rights Reserved.
