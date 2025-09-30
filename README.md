@@ -3,7 +3,7 @@
 
 # Welcome to MathCodeLab Level 1! 🚀
 
-Hey there, future programmer (and supportive parent/mentor)! This Level 1 repo holds the beginner-friendly curriculum: concepts, guided examples, puzzles, homework, answer keys, and workflow helpers.
+Hey there, future programmer (and supportive parent/mentor)! This Level 1 repo holds the beginner-friendly curriculum: concepts, guided examples, puzzles, homework, answer keys, workflow helpers, and assessment tools.
 
 ## Our Learning Path 🗺️
 
@@ -36,11 +36,11 @@ Key ideas:
 Plain-text fallback: Concept → Examples → Homework → Tailored Puzzles → Reflection → (Mastery?) → Mini Project (else loop back).
 
 Operator topic example:
-1. Read: [`operators.md`](Level1/StudentResources/Code/Concepts/operators.md)
-2. Explore: [`operator-examples.md`](Level1/StudentResources/Code/Examples/operator-examples.md)
-3. Practice: open the PDF in `Homework/`
-4. Apply: solve a tailored puzzle (e.g., factorial trailing zeros right after practicing division & loops)
-5. Reflect: explain modulus (%) to someone else.
+1. Read: [`1.LearnOperators.md`](Level1/StudentResources/Topics/4.Operators/1.LearnOperators.md)
+2. Practice: [`2.PracticeOperators.md`](Level1/StudentResources/Topics/4.Operators/2.PracticeOperators.md)
+3. Homework: [`3.Homework-Datatypes-and-Operators.pdf`](Level1/StudentResources/Topics/4.Operators/3.Homework-Datatypes-and-Operators.pdf)
+4. Apply: solve [`factorial-trailing-zeros.md`](Level1/StudentResources/Puzzles/factorial-trailing-zeros.md)
+5. Reflect: explain operators to someone else.
 
 ## What's Inside This Treasure Box? 💎
 
@@ -49,53 +49,58 @@ We've organized all the cool stuff into different folders to make it easy to fin
 ### 📂 `Level1/StudentResources/`
 Your main learning materials are here!
 
-- **Code/Concepts/** – Core ideas (simple language, examples):
-  - [`constructs.md`](Level1/StudentResources/Code/Concepts/constructs.md)
-  - [`data-types.md`](Level1/StudentResources/Code/Concepts/data-types.md)
-  - [`operators.md`](Level1/StudentResources/Code/Concepts/operators.md)
-  - [`loops.md`](Level1/StudentResources/Code/Concepts/loops.md)
-  - [`data-type-casting-examples.md`](Level1/StudentResources/Code/Concepts/data-type-casting-examples.md)
-- **Code/Examples/** – Practice & guided output:
-  - [`primitive-data-types.md`](Level1/StudentResources/Code/Examples/primitive-data-types.md)
-  - [`operator-examples.md`](Level1/StudentResources/Code/Examples/operator-examples.md)
-  - [`complex-data-types.md`](Level1/StudentResources/Code/Examples/complex-data-types.md)
-  - [`data-type-casting-examples.md`](Level1/StudentResources/Code/Examples/data-type-casting-examples.md)
-  - [`basic-programs-solutions.md`](Level1/StudentResources/Code/Examples/basic-programs-solutions.md)
-- **Homework/** – Weekly practice PDFs.
-- **Puzzles/** – Challenge thinking:
-  - [`look-and-say-sequence.md`](Level1/StudentResources/Puzzles/look-and-say-sequence.md)
+- **Topics/** – Organized by learning progression:
+  - **1.Introduction/** – What programming is, basic concepts
+    - [`1.ProgrammingIntroduction.md`](Level1/StudentResources/Topics/1.Introduction/1.ProgrammingIntroduction.md)
+    - [`1.ProgrammingIntroduction.pdf`](Level1/StudentResources/Topics/1.Introduction/1.ProgrammingIntroduction.pdf)
+  - **2.BasicInputOutput/** – Input/output operations
+    - [`1.LearnBasicInputOutput.md`](Level1/StudentResources/Topics/2.BasicInputOutput/1.LearnBasicInputOutput.md)
+    - [`2.PracticeBasicInputOutput.md`](Level1/StudentResources/Topics/2.BasicInputOutput/2.PracticeBasicInputOutput.md)
+  - **3.DataTypes/** – Understanding data types
+    - [`1.DataTypes.md`](Level1/StudentResources/Topics/3.DataTypes/1.DataTypes.md)
+    - [`2.PracticePrimitiveDataTypes.md`](Level1/StudentResources/Topics/3.DataTypes/2.PracticePrimitiveDataTypes.md)
+    - [`3.PracticeComplexDataTypes.md`](Level1/StudentResources/Topics/3.DataTypes/3.PracticeComplexDataTypes.md)
+  - **4.Operators/** – Mathematical and comparison operators
+    - [`1.LearnOperators.md`](Level1/StudentResources/Topics/4.Operators/1.LearnOperators.md)
+    - [`1.LearnOperators.pdf`](Level1/StudentResources/Topics/4.Operators/1.LearnOperators.pdf)
+    - [`2.PracticeOperators.md`](Level1/StudentResources/Topics/4.Operators/2.PracticeOperators.md)
+    - [`3.Homework-Datatypes-and-Operators.pdf`](Level1/StudentResources/Topics/4.Operators/3.Homework-Datatypes-and-Operators.pdf)
+  - **5.Loops/** – For and while loops
+    - [`1.LearnLoops.md`](Level1/StudentResources/Topics/5.Loops/1.LearnLoops.md)
+    - [`3.Homework-Loops.pdf`](Level1/StudentResources/Topics/5.Loops/3.Homework-Loops.pdf)
+    - [`4.Homework-Puzzle-Based-Programming.md`](Level1/StudentResources/Topics/5.Loops/4.Homework-Puzzle-Based-Programming.md)
+    - [`4.Homework-Puzzle-Based-Programming.pdf`](Level1/StudentResources/Topics/5.Loops/4.Homework-Puzzle-Based-Programming.pdf)
+  - **6.Conditions/** – If/else conditional statements
+    - [`1.Constraints-and-Conditional-Statements.md`](Level1/StudentResources/Topics/6.Conditions/1.Constraints-and-Conditional-Statements.md)
+    - [`1.Constraints-and-Conditional-Statements.pdf`](Level1/StudentResources/Topics/6.Conditions/1.Constraints-and-Conditional-Statements.pdf)
+    - [`2.Practice-Constraints-and-Conditional-Statements.md`](Level1/StudentResources/Topics/6.Conditions/2.Practice-Constraints-and-Conditional-Statements.md)
+    - [`3.Homework-1.Constraints-and-Conditional-Statements.pdf`](Level1/StudentResources/Topics/6.Conditions/3.Homework-1.Constraints-and-Conditional-Statements.pdf)
+  - **7.Lists/** – Working with lists and collections
+- **Puzzles/** – Challenge thinking and problem-solving:
   - [`factorial-trailing-zeros.md`](Level1/StudentResources/Puzzles/factorial-trailing-zeros.md)
-- **Presentations/** – Week slide decks.
-- **HomeworkKey/** – Parent/mentor answer explanations.
+  - [`look-and-say-sequence.md`](Level1/StudentResources/Puzzles/look-and-say-sequence.md)
+  - [`look-and-say-three-digits-number.md`](Level1/StudentResources/Puzzles/look-and-say-three-digits-number.md)
+  - [`three-digit-number-to-words.md`](Level1/StudentResources/Puzzles/three-digit-number-to-words.md)
 
-### 📂 `Level1/ParentResources/`
-Support artifacts for adults (coach confidently, avoid over‑scaffolding):
-
-- ✅ Prep Checklist: [`Parent-Prep-Checklist-for-Success.pdf`](Level1/ParentResources/Parent-Prep-Checklist-for-Success.pdf)
-- 📝 Parent Homework Mirror: [`Homework/`](Level1/ParentResources/Homework/) (same PDFs as student set for easy printing)
-- 🗝️ Answer Keys: [`HomeworkKey/`](Level1/ParentResources/HomeworkKey/)
-  - [`MCL.Level1.DataTypesAndOperators.md`](Level1/ParentResources/HomeworkKey/MCL.Level1.DataTypesAndOperators.md)
-  - [`MCL.Level1.Loops.md`](Level1/ParentResources/HomeworkKey/MCL.Level1.Loops.md)
-  - (Future keys will appear here)
-
-Usage Tip: Ask the learner to narrate their reasoning first. THEN consult the key to fill any gaps.
+### 📂 Root Level Files
+- [`Microsoft_Forms_Quiz_Prompt.md`](Microsoft_Forms_Quiz_Prompt.md) – Simplified prompt for creating 40-question Python assessments for kids using Microsoft Forms
+- [`LICENSE`](LICENSE) – Apache License 2.0
+- [`README.md`](README.md) – This file!
 
 ## Getting Started 🎮
 
 ### Resource Alignment (Quick Map)
 Use this as a planning / pacing aid. Each puzzle intentionally reinforces the most recent (or combined) concepts. If a student struggles in a puzzle column, revisit the example(s) in the same row first.
 
-| Concept / Topic | Examples (Guided) | Homework PDF | Tailored Puzzle(s) | Answer Key |
+| Concept / Topic | Learning Materials | Homework PDF | Tailored Puzzle(s) | Answer Key |
 |-----------------|-------------------|--------------|--------------------|------------|
-| Constructs (sequence, input/output) | (intro inside [`constructs.md`](Level1/StudentResources/Code/Concepts/constructs.md)) | — (introduced informally Week 1) | — (first puzzle appears later) | — |
-| Data Types (primitive) | [`primitive-data-types.md`](Level1/StudentResources/Code/Examples/primitive-data-types.md) | [`MCL.Level1.DataTypesAndOperators.pdf`](Level1/StudentResources/Homework/MCL.Level1.DataTypesAndOperators.pdf) | (foundation for later puzzles) | [`DataTypes & Operators Key`](Level1/ParentResources/HomeworkKey/MCL.Level1.DataTypesAndOperators.md) |
-| Type Casting | [`data-type-casting-examples.md`](Level1/StudentResources/Code/Examples/data-type-casting-examples.md) | Included in DataTypes & Operators HW | Supports both puzzles (string ↔ int) | Same as above |
-| Operators (+, -, *, /, //, %, **) | [`operator-examples.md`](Level1/StudentResources/Code/Examples/operator-examples.md) | [`MCL.Level1.DataTypesAndOperators.pdf`](Level1/StudentResources/Homework/MCL.Level1.DataTypesAndOperators.pdf) | [`factorial-trailing-zeros.md`](Level1/StudentResources/Puzzles/factorial-trailing-zeros.md) (uses %, //) | [`DataTypes & Operators Key`](Level1/ParentResources/HomeworkKey/MCL.Level1.DataTypesAndOperators.md) |
-| Loops (while / for, counters) | (loop patterns inside upcoming examples) | [`MCL.Level1.Loops.pdf`](Level1/StudentResources/Homework/MCL.Level1.Loops.pdf) | Both puzzles reinforce loop control & accumulation | [`Loops Key`](Level1/ParentResources/HomeworkKey/MCL.Level1.Loops.md) |
-| Pattern / Sequence Processing | (emerges via puzzles) | — | [`look-and-say-sequence.md`](Level1/StudentResources/Puzzles/look-and-say-sequence.md) | (Covered conceptually in loop & future sequence keys) |
-| Counting / Factor Patterns | (implicit in operator examples) | — | [`factorial-trailing-zeros.md`](Level1/StudentResources/Puzzles/factorial-trailing-zeros.md) | (Explained in Operators key reasoning section) |
-| Complex / Collections (lists, grouping) | [`complex-data-types.md`](Level1/StudentResources/Code/Examples/complex-data-types.md) | (future Week 4 PDF) | (future list-based puzzle) | (future key) |
-| Aggregation Patterns (Week 4) | (to be added) | (future Week 4 PDF) | (future multi-step puzzle) | (future key) |
+| **1. Introduction** | [`1.ProgrammingIntroduction.md`](Level1/StudentResources/Topics/1.Introduction/1.ProgrammingIntroduction.md) | — | — | — |
+| **2. Basic Input/Output** | [`1.LearnBasicInputOutput.md`](Level1/StudentResources/Topics/2.BasicInputOutput/1.LearnBasicInputOutput.md)<br>[`2.PracticeBasicInputOutput.md`](Level1/StudentResources/Topics/2.BasicInputOutput/2.PracticeBasicInputOutput.md) | — | — | — |
+| **3. Data Types** | [`1.DataTypes.md`](Level1/StudentResources/Topics/3.DataTypes/1.DataTypes.md)<br>[`2.PracticePrimitiveDataTypes.md`](Level1/StudentResources/Topics/3.DataTypes/2.PracticePrimitiveDataTypes.md)<br>[`3.PracticeComplexDataTypes.md`](Level1/StudentResources/Topics/3.DataTypes/3.PracticeComplexDataTypes.md) | [`3.Homework-Datatypes-and-Operators.pdf`](Level1/StudentResources/Topics/4.Operators/3.Homework-Datatypes-and-Operators.pdf) | Foundation for puzzles | [`3.Homework-Datatypes-and-Operators.md`](Level1/ParentResources/HomeworkKey/3.Homework-Datatypes-and-Operators.md) |
+| **4. Operators** | [`1.LearnOperators.md`](Level1/StudentResources/Topics/4.Operators/1.LearnOperators.md)<br>[`2.PracticeOperators.md`](Level1/StudentResources/Topics/4.Operators/2.PracticeOperators.md) | [`3.Homework-Datatypes-and-Operators.pdf`](Level1/StudentResources/Topics/4.Operators/3.Homework-Datatypes-and-Operators.pdf) | [`factorial-trailing-zeros.md`](Level1/StudentResources/Puzzles/factorial-trailing-zeros.md) | [`3.Homework-Datatypes-and-Operators.md`](Level1/ParentResources/HomeworkKey/3.Homework-Datatypes-and-Operators.md) |
+| **5. Loops** | [`1.LearnLoops.md`](Level1/StudentResources/Topics/5.Loops/1.LearnLoops.md) | [`3.Homework-Loops.pdf`](Level1/StudentResources/Topics/5.Loops/3.Homework-Loops.pdf)<br>[`4.Homework-Puzzle-Based-Programming.pdf`](Level1/StudentResources/Topics/5.Loops/4.Homework-Puzzle-Based-Programming.pdf) | [`look-and-say-sequence.md`](Level1/StudentResources/Puzzles/look-and-say-sequence.md)<br>[`look-and-say-three-digits-number.md`](Level1/StudentResources/Puzzles/look-and-say-three-digits-number.md) | [`3.Homework-Loops-Key.md`](Level1/ParentResources/HomeworkKey/3.Homework-Loops-Key.md)<br>[`4.Homework-Puzzle-Based-Programming-Key.md`](Level1/ParentResources/HomeworkKey/4.Homework-Puzzle-Based-Programming-Key.md) |
+| **6. Conditions** | [`1.Constraints-and-Conditional-Statements.md`](Level1/StudentResources/Topics/6.Conditions/1.Constraints-and-Conditional-Statements.md)<br>[`2.Practice-Constraints-and-Conditional-Statements.md`](Level1/StudentResources/Topics/6.Conditions/2.Practice-Constraints-and-Conditional-Statements.md) | [`3.Homework-1.Constraints-and-Conditional-Statements.pdf`](Level1/StudentResources/Topics/6.Conditions/3.Homework-1.Constraints-and-Conditional-Statements.pdf) | [`three-digit-number-to-words.md`](Level1/StudentResources/Puzzles/three-digit-number-to-words.md) | — |
+| **7. Lists** | (Content coming soon) | (Future homework) | (Future puzzles) | (Future keys) |
 
 Legend: — = intentionally not formalized yet (introduced via live teaching or future addition).
 
@@ -104,12 +109,12 @@ Maintenance Tip: When adding a new concept, add (a) at least one guided example,
 Remember: Take your time with each step - it's not a race! 🐢
 
 **Quick Links:**
-- 🧠 Concepts: `Level1/StudentResources/Code/Concepts/`
-- 🛠 Examples: `Level1/StudentResources/Code/Examples/`
+- 🧠 Topics: `Level1/StudentResources/Topics/`
 - 🧩 Puzzles: `Level1/StudentResources/Puzzles/`
-- 📝 Homework PDFs: `Level1/StudentResources/Homework/`
-- 📚 Week Slides: `Level1/StudentResources/Presentations/`
+- 📝 Homework PDFs: Located within each topic folder
+- 📚 Presentations: `Level1/StudentResources/Presentations/` (when available)
 - ✅ Parent Answer Keys: `Level1/ParentResources/HomeworkKey/`
+- 📊 Quiz Creator Prompt: `Microsoft_Forms_Quiz_Prompt.md` (for creating assessments)
 
 ## Technical Setup
 
