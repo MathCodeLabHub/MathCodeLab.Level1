@@ -98,32 +98,8 @@ while True:
 print(f"Days needed: {days}")
 ```
 ### Faster Math (Optional Thinking)
-Want the day count instantly? Use the formula—otherwise just simulate.
-
-Key idea: Only the *previous* full days lose B at night. The last day stops right after a climb (no slip).
-
-If `A >= H` → `days = 1`.
-Else if `A <= B` → impossible (no net progress).
-Else:
-`days = 1 + ceil( (H - A) / (A - B) )`
-
-Derivation (one line): `(d - 1)(A - B) + A ≥ H` → solve for `d` and round up.
-
-Quick checks:
-- H=10,A=3,B=2 → 1+ceil(7/1)=8
-- H=20,A=5,B=1 → 1+ceil(15/4)=5
-- H=6,A=8,B=3  → 1 (A already reaches top)
-
-Mini code:
-```python
-import math
-if A >= H:
-    days = 1
-elif A <= B:
-    days = None  # unreachable
-else:
-    days = 1 + math.ceil((H - A) / (A - B))
-```
+If you wanted a formula: After (d - 1) full days, height gained is `(d - 1) * (A - B)`. On day d you add `A` and must reach ≥ H.
+So: `(d - 1) * (A - B) + A ≥ H` → Solve for d. But for beginners, simulation is clearer and avoids mistakes.
 
 ---
 ### Summary Table
